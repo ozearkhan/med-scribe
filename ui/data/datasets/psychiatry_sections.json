@@ -1,0 +1,52 @@
+{
+    "id": "psychiatry_sections",
+    "name": "Psychiatry Sections",
+    "description": "Section classification for psychiatric clinical notes (9 classes)",
+    "classes": [
+        {
+            "id": "chief_complaint",
+            "name": "Chief Complaint",
+            "description": "The patient's main presenting problem or reason for visit stated in their own words. Chief complaint, CC, presenting problem, main issue, reason for visit."
+        },
+        {
+            "id": "hpi",
+            "name": "History of Present Illness",
+            "description": "Detailed narrative of the current psychiatric symptoms including onset, duration, severity, course, triggers, and associated symptoms."
+        },
+        {
+            "id": "past_psych",
+            "name": "Past Psychiatric History",
+            "description": "Previous psychiatric diagnoses, hospitalizations, treatments, and responses to treatment."
+        },
+        {
+            "id": "substance",
+            "name": "Substance Use History",
+            "description": "History of alcohol, tobacco, drug use, and other substance use including frequency and amount."
+        },
+        {
+            "id": "family_psych",
+            "name": "Family Psychiatric History",
+            "description": "Psychiatric illnesses in family members. Family history, hereditary mental illness, genetic predisposition."
+        },
+        {
+            "id": "social",
+            "name": "Social History",
+            "description": "Patient's living situation, occupation, education, relationships, support system, and lifestyle."
+        },
+        {
+            "id": "mse",
+            "name": "Mental Status Examination",
+            "description": "Objective clinical observations: appearance, behavior, speech, mood, affect, thought process, cognition, insight, judgment."
+        },
+        {
+            "id": "assessment",
+            "name": "Assessment",
+            "description": "Clinical diagnostic impression, risk assessment, DSM/ICD diagnosis, differential diagnosis, and formulation."
+        },
+        {
+            "id": "plan",
+            "name": "Plan",
+            "description": "Treatment recommendations including medications, therapy, referrals, safety planning, and follow-up."
+        }
+    ]
+}

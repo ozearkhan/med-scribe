@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+cleanup.py
+
+# Jupyter
+*.ipynb_checkpoints
+test.ipynb
+
+# Docker
+*.tar
+
+# Output
+output/
+kiwi/processed-outputs/*.json
+
+# Models (in Docker now)
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.log
+
+
+
+# Python virtual environments (anywhere)
+venv/
+**/venv/
+.env/
+**/.env/
+.venv/
+**/.venv/
+
+/docs

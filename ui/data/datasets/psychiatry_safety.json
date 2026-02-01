@@ -1,0 +1,37 @@
+{
+    "id": "psychiatry_safety",
+    "name": "Psychiatry Safety Screening",
+    "description": "Safety classification for suicidal/homicidal ideation (6 classes)",
+    "classes": [
+        {
+            "id": "si_active",
+            "name": "Active Suicidal Ideation",
+            "description": "Active suicidal thoughts with intent or plan. Wants to die, has a plan, considering suicide."
+        },
+        {
+            "id": "si_passive",
+            "name": "Passive Suicidal Ideation",
+            "description": "Passive death wishes without active intent. Wishes they were dead, doesn't want to wake up."
+        },
+        {
+            "id": "si_denied",
+            "name": "Suicidal Ideation Denied",
+            "description": "Patient explicitly denies suicidal ideation. No SI, denies SI, no suicidal thoughts."
+        },
+        {
+            "id": "hi_present",
+            "name": "Homicidal Ideation Present",
+            "description": "Thoughts of harming others. Homicidal ideation, thoughts of violence toward others."
+        },
+        {
+            "id": "hi_denied",
+            "name": "Homicidal Ideation Denied",
+            "description": "Patient explicitly denies homicidal ideation. No HI, denies HI, no thoughts of harming others."
+        },
+        {
+            "id": "self_harm",
+            "name": "Self-Harm Behavior",
+            "description": "Non-suicidal self-injury. Cutting, burning, self-harm without suicidal intent."
+        }
+    ]
+}

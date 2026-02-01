@@ -1,0 +1,67 @@
+{
+    "id": "psychiatry_domains",
+    "name": "Psychiatry Symptom Domains",
+    "description": "Clinical symptom domain classification (12 classes)",
+    "classes": [
+        {
+            "id": "mood",
+            "name": "Mood Symptoms",
+            "description": "Depression, mania, sadness, euphoria, irritability, mood swings, anhedonia, hopelessness."
+        },
+        {
+            "id": "anxiety",
+            "name": "Anxiety Symptoms",
+            "description": "Worry, panic, nervousness, fear, phobias, social anxiety, generalized anxiety, tension."
+        },
+        {
+            "id": "psychosis",
+            "name": "Psychotic Symptoms",
+            "description": "Hallucinations, delusions, paranoia, disorganized thinking, thought broadcasting, persecution."
+        },
+        {
+            "id": "cognition",
+            "name": "Cognitive Symptoms",
+            "description": "Memory problems, concentration difficulties, confusion, disorientation, executive dysfunction."
+        },
+        {
+            "id": "sleep",
+            "name": "Sleep Symptoms",
+            "description": "Insomnia, hypersomnia, sleep disturbance, nightmares, early morning awakening, sleep quality."
+        },
+        {
+            "id": "appetite",
+            "name": "Appetite/Weight",
+            "description": "Changes in appetite, weight loss, weight gain, eating patterns, food intake changes."
+        },
+        {
+            "id": "energy",
+            "name": "Energy/Fatigue",
+            "description": "Fatigue, low energy, exhaustion, tiredness, lethargy, lack of motivation."
+        },
+        {
+            "id": "trauma",
+            "name": "Trauma Symptoms",
+            "description": "PTSD, flashbacks, nightmares, hypervigilance, avoidance, traumatic memories, triggers."
+        },
+        {
+            "id": "somatic",
+            "name": "Somatic Symptoms",
+            "description": "Physical complaints, headaches, pain, bodily concerns, physical manifestations of distress."
+        },
+        {
+            "id": "impulse",
+            "name": "Impulse Control",
+            "description": "Impulsivity, aggression, anger outbursts, self-harm urges, reckless behavior."
+        },
+        {
+            "id": "obsessive",
+            "name": "Obsessive-Compulsive",
+            "description": "Obsessions, compulsions, intrusive thoughts, rituals, checking, cleaning, ordering."
+        },
+        {
+            "id": "dissociation",
+            "name": "Dissociative Symptoms",
+            "description": "Depersonalization, derealization, dissociation, feeling detached, out of body experiences."
+        }
+    ]
+}

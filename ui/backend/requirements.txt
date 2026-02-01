@@ -1,0 +1,26 @@
+# Psychiatry AI Scribe - Backend Requirements
+# =============================================
+
+# FastAPI and server
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Gemini API
+google-generativeai>=0.3.0
+
+# Embeddings (local)
+sentence-transformers>=2.2.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# File handling  
+python-dotenv>=1.0.0
+aiofiles>=23.0.0
+
+# PDF processing
+pymupdf>=1.23.0
+PyPDF2>=3.0.0
